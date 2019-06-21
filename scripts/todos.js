@@ -104,7 +104,7 @@ function removeTodoItem(event) {
 	var incompleteTodos = data.filter(function(todo){
 	  return todo.done === false;
 	});
-
+	data = incompleteTodos;
 	updateTodoItems();
 }
 
