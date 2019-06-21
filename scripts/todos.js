@@ -76,7 +76,7 @@ function validateTask(task) {
 }
 
 function addTodoItem() {
-	if (validateTask(inputEl.value)) {
+	if (!validateTask(inputEl.value)) {
 		return;
 	}
 
