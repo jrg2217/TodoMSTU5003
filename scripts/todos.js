@@ -2,17 +2,17 @@
 var data = [
 	{
 		id: 1497141891479,
-		task: "Wake up",
-		done: false
+		task: "Do stuff",
+		done: true
 	},
 	{
 		id: 1497141913701,
-		task: "Eat breakfast",
-		done: false
+		task: "Do more stuff",
+		done: true
 	},
 	{
 		id: 1497141937545,
-		task: "Learn code",
+		task: "Do even more stuff",
 		done: true
 	}
 ];
